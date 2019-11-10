@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('init') {
       steps {
-        dockerNode(image: 'opengamer/android-sdk-gradle-fastlane')
+        sh 'ls'
       }
     }
 
